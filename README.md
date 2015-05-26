@@ -1,5 +1,7 @@
-# Functional System Modelling Diagram
-(I just wanna call it Funsy.)
+# Funsy, Functional System Modelling Diagram
+
+Visual design diagram for purely functional programming languages
+
 
 ## Motivation
 
@@ -9,26 +11,29 @@
 
 ## Features
 
-("system" is the software you design in this section)
+("system" refers to the software you design)
 
+* Appropriate for software in purely functional programming languages
 * Separation of systems and the world which they affects
-* Separation of system's function and state
-* friendly with _DFD_ (_Data Flow Diagram_)
+* Separation of systems' procedure and state
+* Friendly with _DFD_ (_Data Flow Diagram_)
 
-
-### Merits
-
-
-### Demerits
+* Dubious ones
+  * Easy to discriminate thread-safe functions from the others.
+  * Easy to pack multiple functions into one function, or bunch nearly
+    concerned functions into modules with strong cohesion.
 
 
 ## Usage
 
-1. Break down the system which you design by _DFD_ to make each processes in it
-  small enough to apply **Funsy**.
-2. Design each processes by applying **Funsy**. 
+1. Break down the system which you design with _DFD_ to make each processes in
+  it small enough to apply **Funsy**.
+2. Design each processes by applying **Funsy** to them.
 3. Design details of the functions in them.
-4. Define the data types transfered among each functions.
+4. Design the types of data transfered among each functions.
+  (e.g. using _UML_)
+5. Implement them in purely functional programming languages.
+  (I recommend you Haskell)
 
 
 ## References
