@@ -17,7 +17,7 @@ Visual design diagram for purely functional programming languages
 * Appropriate for software in purely functional programming languages
 * Separation of systems and the world which they affects
 * Separation of systems' procedure and state
-* Friendly with _DFD_ (_Data Flow Diagram_)
+* Friendly with DFD (Data Flow Diagram)
 
 * Dubious ones
   * Easy to discriminate thread-safe functions from the others.
@@ -27,12 +27,12 @@ Visual design diagram for purely functional programming languages
 
 ## Usage
 
-1. Break down the system which you design with _DFD_ to make each processes in
-  it small enough to apply **Funsy**.
-2. Design each processes by applying **Funsy** to them.
-3. Design details of the functions in them.
+1. Break down the system which you design with DFD to make each processes in
+  it small enough to apply Funsy.
+2. Design each processes by applying Funsy to them.
+3. Design the details of functions in them.
 4. Design the types of data transfered among each functions.
-  (e.g. using _UML_)
+  (e.g. using UML)
 5. Implement them in purely functional programming languages.
   (I recommend you Haskell)
 
