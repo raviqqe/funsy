@@ -7,6 +7,7 @@ Visual design diagram for purely functional programming languages
 
 * Making a practical design diagram for software in purely functional
   programming languages
+* I don't like variables.
 
 
 ## Features
