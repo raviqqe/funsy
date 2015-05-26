@@ -1,3 +1,5 @@
+## Why not other design diagrams?
+
 * DFD (Data Flow Diagram)
 
   Each processes in DFD can have their states utilizing files or databases.
