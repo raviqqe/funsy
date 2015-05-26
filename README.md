@@ -34,7 +34,7 @@ Visual design diagram for purely functional programming languages
 4. Design the types of data transfered among each functions.
   (e.g. using UML)
 5. Implement them in purely functional programming languages.
-  (I recommend you Haskell)
+  (I recommend you Haskell ;) )
 
 
 ## References
