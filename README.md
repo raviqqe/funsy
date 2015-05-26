@@ -1,16 +1,17 @@
 # Functional System Modelling Diagram
+(I just wanna call it Funsy.)
 
 ## Motivation
 
 * Making a practical design diagram for software in purely functional
-  programming language
+  programming languages
 
 
 ## Features
 
 ("system" is the software you design in this section)
 
-* Separation of system and the world which it affects
+* Separation of systems and the world which they affects
 * Separation of system's function and state
 * friendly with _DFD_ (_Data Flow Diagram_)
 
